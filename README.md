@@ -59,6 +59,6 @@ min-height: unset;
 
 ## Author
 
-- Website - [Add your name here](https://github.com/vgarmy)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vgarmy)
+- Website - [vgarmy](https://github.com/vgarmy)
+- Frontend Mentor - [@vgarmy](https://www.frontendmentor.io/profile/vgarmy)
 
