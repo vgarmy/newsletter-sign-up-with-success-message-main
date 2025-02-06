@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/newsletter-sign-up-with-success-message-main/static/css/main.dda12585.css",
-    "main.js": "/newsletter-sign-up-with-success-message-main/static/js/main.ffd96585.js",
+    "main.js": "/newsletter-sign-up-with-success-message-main/static/js/main.591fc0e3.js",
     "static/js/453.f5420a34.chunk.js": "/newsletter-sign-up-with-success-message-main/static/js/453.f5420a34.chunk.js",
     "static/media/illustration-sign-up-desktop.svg": "/newsletter-sign-up-with-success-message-main/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862.svg",
     "index.html": "/newsletter-sign-up-with-success-message-main/index.html",
     "main.dda12585.css.map": "/newsletter-sign-up-with-success-message-main/static/css/main.dda12585.css.map",
-    "main.ffd96585.js.map": "/newsletter-sign-up-with-success-message-main/static/js/main.ffd96585.js.map",
+    "main.591fc0e3.js.map": "/newsletter-sign-up-with-success-message-main/static/js/main.591fc0e3.js.map",
     "453.f5420a34.chunk.js.map": "/newsletter-sign-up-with-success-message-main/static/js/453.f5420a34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dda12585.css",
-    "static/js/main.ffd96585.js"
+    "static/js/main.591fc0e3.js"
   ]
 }
