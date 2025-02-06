@@ -24,3 +24,23 @@
     color: var(--Charcoal-Grey);
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .container_confirmation{
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        padding: 150px 40px 40px; /* Bottom padding for spacing */
+        background-color: white;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .container_confirmation p {
+        flex-grow: 1; /* Pushes the button to the bottom */
+    }
+
+    .container__text__email_button {
+        width: 100%; /* Full width */
+        margin-top: auto; /* Pushes the button to the bottom */
+    }
+}
