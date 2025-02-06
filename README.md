@@ -13,8 +13,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vgarmy/newsletter-sign-up-with-success-message-main)
-- Live Site URL: [Add live site URL here](https://vgarmy.github.io/newsletter-sign-up-with-success-message-main/)
+- Solution URL: [Solution URL](https://github.com/vgarmy/newsletter-sign-up-with-success-message-main)
+- Live Site URL: [Live site URL](https://vgarmy.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
