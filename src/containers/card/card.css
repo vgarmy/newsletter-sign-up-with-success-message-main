@@ -38,6 +38,7 @@
   color: var(--Charcoal-Grey);
   font-weight: 400;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .container__text__ul {
@@ -76,17 +77,30 @@
   width: 100%; /* Ensures it takes full width of its container */
 }
 
+.container__text__input_email-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .container__text__email{
   font-size: .8rem;
   font-weight: 700;
   color: var(--Dark-Slate-Grey);
 }
 
+.container__text__error {
+  color: var(--Tomato);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 .container__text__input-field {
   width: 100%;
-  padding: 15px 20px; /* Adds a lot of padding inside */
+  padding: 15px 22px; /* Adds a lot of padding inside */
   font-size: 16px;
-  border: 2px solid var(--Grey); /* Optional border */
+  border: 1px solid var(--Grey); /* Optional border */
   border-radius: 8px; /* Rounded edges */
   outline: none;
 }
@@ -95,9 +109,20 @@
   border-color: var(--Dark-Slate-Grey);; /* Highlight border when focused */
 }
 
+.container__text__error-border {
+  border: 1px solid var(--Tomato) !important;
+  color: var(--Tomato) !important;
+  background-color: hsla(4, 100%, 67%, 0.2); /* 50% opacity */
+}
+
+.container__text__error-border::placeholder {
+  color: hsla(4, 100%, 67%, 0.7); /* Make the placeholder text slightly darker */
+}
+
+
 .container__text__email_button {
   width: 100%; /* Same width as the input */
-  padding: 15px 20px; /* Same padding as input for consistency */
+  padding: 15px 22px; /* Same padding as input for consistency */
   font-size: 16px;
   background: linear-gradient(to right, var(--Dark-Slate-Grey), var(--Dark-Slate-Grey)); /* Set initial gradient */
   color: white;
