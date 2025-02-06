@@ -3,11 +3,8 @@ import './confirmation.css';
 import { FaCheck } from 'react-icons/fa';
 
 const dismissMessage = () => {
-    const baseURL =
-      process.env.NODE_ENV === 'production'
-        ? `${window.location.origin}/newsletter-sign-up-with-success-message-main`
-        : `${window.location.origin}/newsletter-sign-up-with-success-message-main`;
-    window.location.href = `${baseURL}/`; // Redirects in the same window
+  const baseURL = `${window.location.origin}/newsletter-sign-up-with-success-message-main`;
+  window.location.href = `${baseURL}/`; // Redirects in the same window
 };
 
 

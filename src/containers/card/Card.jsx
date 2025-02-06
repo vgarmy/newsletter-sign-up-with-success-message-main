@@ -17,12 +17,9 @@ const Card = () => {
       setIsValid(true);
   
       // Ensure correct path for both localhost and GitHub Pages
-      const baseURL =
-        process.env.NODE_ENV === 'production'
-          ? `${window.location.origin}/newsletter-sign-up-with-success-message-main`
-          : `${window.location.origin}/newsletter-sign-up-with-success-message-main`;
+      const baseURL = window.location.origin + "/newsletter-sign-up-with-success-message-main";
   
-      window.location.href = `${baseURL}/confirmation`; // Redirects in the same window
+      window.location.href = `${baseURL}/#/confirmation`; // HashRouter requires "#"
     } else {
       setIsValid(false);
     }
