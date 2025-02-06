@@ -1,0 +1,116 @@
+.container {
+  width: 930px;
+  height: 100%;
+  background-color: white; /* Optional for visibility */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional for styling */
+  border-radius: 25px;
+  display: flex; /* Enables flexbox */
+  align-items: stretch; /* Ensures children stretch to match container height */
+}
+
+.container__text {
+  flex: 1; /* Takes up equal space */
+  padding: 100px 65px; /* Optional for spacing */
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__img {
+  flex: 1; /* Takes up 50% */
+  background-image: url('./../../assets/images/illustration-sign-up-desktop.svg'); /* Ensure correct path */
+  background-size: cover; /* Cover the full div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: auto; /* Let flexbox determine height */
+  min-height: 100%; /* Ensure it stretches */
+  display: flex;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.container__text__h1{
+  font-size: 3rem;
+  color: var(--Charcoal-Grey);
+}
+
+.container__text__p{
+  color: var(--Charcoal-Grey);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container__text__ul {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;
+  margin: 0; /* Aligns with other text elements */
+}
+
+.container__text__li {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between icon and text */
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--Charcoal-Grey);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.check-icon {
+  color: var(--White); /* Checkmark color */
+  background-color: var(--Tomato); /* Red background */
+  border-radius: 50%; /* Makes it a circle */
+  padding: 5px; /* Adjusts spacing inside the circle */
+  width: 24px; /* Ensures uniform size */
+  height: 24px; /* Ensures uniform size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__text__input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Adds space between text and input field */
+  width: 100%; /* Ensures it takes full width of its container */
+}
+
+.container__text__email{
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--Dark-Slate-Grey);
+}
+
+.container__text__input-field {
+  width: 100%;
+  padding: 15px 20px; /* Adds a lot of padding inside */
+  font-size: 16px;
+  border: 2px solid var(--Grey); /* Optional border */
+  border-radius: 8px; /* Rounded edges */
+  outline: none;
+}
+
+.container__text__input-field:focus {
+  border-color: var(--Dark-Slate-Grey);; /* Highlight border when focused */
+}
+
+.container__text__email_button {
+  width: 100%; /* Same width as the input */
+  padding: 15px 20px; /* Same padding as input for consistency */
+  font-size: 16px;
+  background: linear-gradient(to right, var(--Dark-Slate-Grey), var(--Dark-Slate-Grey)); /* Set initial gradient */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Match the input's rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px; /* Add spacing from input field */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+}
+
+.container__text__email_button:hover {
+  background: linear-gradient(to right, #ff5379, var(--Tomato)); /* Reverse colors on hover */
+  box-shadow: 0px 10px 30px rgba(255, 83, 121, 0.5); /* Big shadow effect */
+}
