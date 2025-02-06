@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/newsletter-sign-up-with-success-message-main/static/css/main.d69cfb64.css",
-    "main.js": "/newsletter-sign-up-with-success-message-main/static/js/main.ac1c75e9.js",
+    "main.css": "/newsletter-sign-up-with-success-message-main/static/css/main.4a460670.css",
+    "main.js": "/newsletter-sign-up-with-success-message-main/static/js/main.853f25ab.js",
     "static/js/453.f5420a34.chunk.js": "/newsletter-sign-up-with-success-message-main/static/js/453.f5420a34.chunk.js",
+    "static/media/illustration-sign-up-desktop.svg": "/newsletter-sign-up-with-success-message-main/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862.svg",
     "index.html": "/newsletter-sign-up-with-success-message-main/index.html",
-    "main.d69cfb64.css.map": "/newsletter-sign-up-with-success-message-main/static/css/main.d69cfb64.css.map",
-    "main.ac1c75e9.js.map": "/newsletter-sign-up-with-success-message-main/static/js/main.ac1c75e9.js.map",
+    "main.4a460670.css.map": "/newsletter-sign-up-with-success-message-main/static/css/main.4a460670.css.map",
+    "main.853f25ab.js.map": "/newsletter-sign-up-with-success-message-main/static/js/main.853f25ab.js.map",
     "453.f5420a34.chunk.js.map": "/newsletter-sign-up-with-success-message-main/static/js/453.f5420a34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69cfb64.css",
-    "static/js/main.ac1c75e9.js"
+    "static/css/main.4a460670.css",
+    "static/js/main.853f25ab.js"
   ]
 }
